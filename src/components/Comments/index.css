@@ -1,0 +1,86 @@
+/* Write your CSS here */
+.heading {
+  margin: 20px;
+  color: #1e293b;
+}
+@media (max-width: 767px) {
+  .smallImage {
+    height: 140px;
+    margin: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .smallImage {
+    display: none;
+  }
+}
+.para1 {
+  font-family: roboto;
+  font-size: 14px;
+  color: #475569;
+  margin: 20px;
+}
+.inputElement {
+  margin: 20px;
+  border-color: #cbd2d9;
+  border-width: 1px;
+  outline: none;
+  height: 28px;
+  width: 280px;
+  border-radius: 4px;
+}
+.inputTextArea {
+  margin-left: 20px;
+  border-color: #cbd2d9;
+  border-width: 1px;
+  outline: none;
+  border-radius: 4px;
+}
+.button {
+  margin: 20px;
+  height: 30px;
+  background-color: #0284c7;
+  border-width: 0px;
+  color: #ffffff;
+  font-family: roboto;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.largeImage {
+  height: 250px;
+}
+@media (max-width: 767px) {
+  .largeImage {
+    display: none;
+  }
+}
+.alignment {
+  display: flex;
+  flex-direction: row;
+}
+.largeImageAdjust {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 70px;
+}
+.horizontalLine {
+  margin: 10px;
+  width: 100%;
+}
+.noOfComments {
+  margin: 26px;
+  background-color: #0b69ff;
+  width: 30px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 4px;
+  font-family: roboto;
+}
+.noOfCommentsContainer {
+  display: flex;
+}
+.comments {
+  margin-top: 26px;
+}
